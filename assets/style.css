@@ -1,191 +1,251 @@
-        .body {
-            height: 100%;
-            background: linear-gradient(to top, black 70%, white);
-        }
-        
+    .body {
+        height: 100%;
+        margin: 0 auto;
+        background: linear-gradient(to top, black 70%, white);
+    }
+    
+    .flexbox {
+        background-color: white;
+        margin: 7%;
+        height: 130vw;
+        width: 79vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .img {
+        display: block;
+        margin: 0 auto;
+        max-width: 22%;
+        opacity: 90%;
+        height: auto;
+        padding: 0.4vw;
+        margin-top: 40px;
+        border-radius: 50%;
+        border: 14px solid;
+        border-color: #fdfa43;
+    }
+    
+    .name {
+        color: white;
+        padding: 0;
+        text-align: center;
+        margin-top: 1vw;
+        display: block;
+    }
+    
+    .logo {
+        filter: invert(1);
+        padding: 3px;
+        position: relative;
+        margin: 0 auto;
+        margin-left: 42.5%;
+        margin-right: 30%;
+    }
+    
+    .text {
+        text-align: left;
+        font-size: 1.6vw;
+    }
+    
+    .presentation {
+        margin-left: 13vw;
+        margin-right: 11vw;
+        padding-top: 10vw;
+    }
+    
+    .img2 {
+        max-width: 6%;
+        height: auto;
+        position: relative;
+        left: 15vw;
+        top: 1vw;
+    }
+    
+    .img3 {
+        max-width: 6%;
+        height: auto;
+        position: relative;
+        left: 17.7vw;
+        top: 1vw;
+    }
+    
+    .img4 {
+        max-width: 5.5%;
+        height: auto;
+        position: relative;
+        left: 21vw;
+        top: 1vw;
+    }
+    
+    .img5 {
+        max-width: 7%;
+        height: auto;
+        position: relative;
+        left: 24vw;
+        top: 1vw;
+    }
+    
+    .text2 {
+        font-size: 1.6vw;
+        margin-top: 50vw;
+        text-align: center;
+    }
+    
+    .image {
+        position: relative;
+        top: 40px;
+    }
+    
+    .image2 {
+        height: 100%;
+        width: 25vw;
+        transition-property: width;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    
+    .image2:hover {
+        width: 23vw;
+        opacity: 93%;
+    }
+    
+    .span1 {
+        position: relative;
+        bottom: 13vw;
+        width: 100%;
+    }
+    
+    .pp2 {
+        font-size: 2.1vw;
+        position: relative;
+        bottom: 8vw;
+    }
+    
+    @media screen and (max-width: 1090px) {
         .flexbox {
-            background-color: white;
-            margin: 7%;
-            height: 130vw;
-            width: 79vw;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-        
-        .img {
-            display: block;
+            width: 100%;
+            height: 128vw;
             margin: 0 auto;
-            max-width: 22%;
-            opacity: 90%;
-            height: auto;
-            padding: 0.4vw;
-            margin-top: 40px;
-            border-radius: 50%;
-            border: 14px solid;
-            border-color: #fdfa43;
         }
-        
-        .name {
-            color: white;
-            padding: 0;
-            text-align: center;
-            margin-top: 1vw;
-            display: block;
+        .size {
+            margin-bottom: 6vw;
         }
-        
-        .logo {
-            filter: invert(1);
-            padding: 3px;
-            position: relative;
-            margin: 0 auto;
-            margin-left: 42.5%;
-            margin-right: 30%;
-        }
-        
         .text {
-            text-align: left;
-            font-size: 1.6vw;
+            font-size: 2.5vw;
         }
-        
-        .presentation {
-            margin-left: 13vw;
-            margin-right: 11vw;
-            padding-top: 10vw;
+        .text2 {
+            font-size: 2.5vw;
+            margin-top: 30vw;
         }
-        
         .img2 {
             max-width: 6%;
-            height: auto;
-            position: relative;
-            left: 15vw;
-            top: 1vw;
-        }
-        
-        .img3 {
-            max-width: 6%;
-            height: auto;
-            position: relative;
-            left: 17.7vw;
-            top: 1vw;
-        }
-        
-        .img4 {
-            max-width: 5.5%;
             height: auto;
             position: relative;
             left: 21vw;
             top: 1vw;
         }
-        
-        .img5 {
-            max-width: 7%;
+        .img3 {
+            max-width: 6%;
             height: auto;
             position: relative;
-            left: 24vw;
+            left: 25vw;
             top: 1vw;
         }
-        
+        .img4 {
+            max-width: 6%;
+            height: auto;
+            position: relative;
+            left: 30vw;
+            top: 1vw;
+        }
+        .img5 {
+            max-width: 6%;
+            height: auto;
+            position: relative;
+            left: 35vw;
+            top: 1vw;
+        }
+        .pp2 {
+            font-size: 2.5vw;
+            position: relative;
+            bottom: 8vw;
+            right: 15vw;
+        }
+        .span1 {
+            position: relative;
+            bottom: 8vw;
+            width: 100%;
+            height: 10vw;
+        }
+    }
+    
+    @media screen and (max-width: 720px) {
+        .name {
+            position: relative;
+            top: 3vw;
+            font-size: 4.5vw;
+        }
+        .img {
+            border: 1.8vw solid;
+            max-width: 35vw;
+            border-color: #fdfa43;
+        }
+        .text {
+            font-size: 2.7vw;
+        }
+        .size {
+            margin-bottom: 10vw;
+        }
         .text2 {
-            font-size: 1.6vw;
-            margin-top: 50vw;
-            text-align: center;
+            font-size: 2.5vw;
+            margin-top: 30vw;
         }
-        
-        @media screen and (max-width: 1090px) {
-            .flexbox {
-                width: 100%;
-                height: 128vw;
-                margin: 0 auto;
-            }
-            .size {
-                margin-bottom: 6vw;
-            }
-            .text {
-                font-size: 2.5vw;
-            }
-            .text2 {
-                font-size: 2.5vw;
-                margin-top: 30vw;
-            }
-            .img2 {
-                max-width: 6%;
-                height: auto;
-                position: relative;
-                left: 21vw;
-                top: 1vw;
-            }
-            .img3 {
-                max-width: 6%;
-                height: auto;
-                position: relative;
-                left: 25vw;
-                top: 1vw;
-            }
-            .img4 {
-                max-width: 6%;
-                height: auto;
-                position: relative;
-                left: 30vw;
-                top: 1vw;
-            }
-            .img5 {
-                max-width: 6%;
-                height: auto;
-                position: relative;
-                left: 35vw;
-                top: 1vw;
-            }
+        .flexbox {
+            height: 135vw;
         }
-        
-        @media screen and (max-width: 720px) {
-            .name {
-                position: relative;
-                top: 3vw;
-                font-size: 4.5vw;
-            }
-            .img {
-                border: 1.8vw solid;
-                max-width: 35vw;
-                border-color: #fdfa43;
-            }
-            .text {
-                font-size: 2.7vw;
-            }
-            .size {
-                margin-bottom: 10vw;
-            }
-            .text2 {
-                font-size: 2.5vw;
-                margin-top: 30vw;
-            }
-            .flexbox {
-                height: 135vw;
-            }
+        .span1 {
+            position: relative;
+            bottom: 4.2vw;
+            width: 100%;
         }
-        
-        @media screen and (max-width: 516px) {
-            .size {
-                margin-bottom: 30vw;
-            }
-            .name {
-                top: 21vw;
-                font-size: 6vw;
-                position: relative;
-            }
-            .img {
-                position: relative;
-                top: 10vw;
-                max-width: 50vw;
-            }
-            .text {
-                font-size: 4vw;
-            }
-            .text2 {
-                font-size: 2.5vw;
-                margin-top: 45vw;
-            }
-            .flexbox {
-                height: 200vw;
-            }
+        .pp2 {
+            font-size: 3vw;
+            position: relative;
+            bottom: 8vw;
+            right: 10vw;
         }
+    }
+    
+    @media screen and (max-width: 516px) {
+        .size {
+            margin-bottom: 30vw;
+        }
+        .name {
+            top: 21vw;
+            font-size: 6vw;
+            position: relative;
+        }
+        .img {
+            position: relative;
+            top: 10vw;
+            max-width: 50vw;
+        }
+        .text {
+            font-size: 4vw;
+        }
+        .text2 {
+            font-size: 2.5vw;
+            margin-top: 45vw;
+        }
+        .flexbox {
+            height: 200vw;
+        }
+        .span1 {
+            position: relative;
+            bottom: 10vw;
+            width: 100%;
+            height: 10vw;
+        }
+    }
