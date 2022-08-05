@@ -123,16 +123,23 @@ html {
 
 .text2 {
   font-size: 1.6vw;
-  margin-top: 50vw;
   text-align: center;
 }
 
 .image-div {
-  display: inline-flex;
-
+  display: flex;
+  flex-direction: row;
   top: 40px;
 }
 
+.image3 {
+  height: auto;
+  width: 34vw;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  padding: 10px;
+}
 .image2 {
   height: auto;
   width: 30vw;
@@ -147,23 +154,15 @@ html {
   opacity: 93%;
 }
 
-.image3 {
-  height: auto;
-  width: 32vw;
-  transition-property: width;
-  transition-duration: 0.5s;
-  transition-delay: 0.2s;
-  padding: 10px;
-}
 .image3:hover {
   width: 29vw;
   opacity: 93%;
 }
 
 footer {
-  position: relative;
-  bottom: 23vw;
   width: 100%;
+  margin-top: 300px;
+  margin-bottom: 200px;
 }
 ul li {
   display: inline;
@@ -199,9 +198,8 @@ ul li {
   font-size: 1.2vw;
 }
 
-.flexbox-container{
+.flexbox-container {
   margin: 150px 200px;
-
 }
 @media screen and (max-width: 720px) {
   .img {
