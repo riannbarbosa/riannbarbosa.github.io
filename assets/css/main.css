@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  padding: 50px;
+}
+
+/* Fixed sidebar header */
+header {
+  width: 272px;
+  position: fixed;
+  float:left;
+  text-align: center;
+  padding-top: 8em;
+}
+
+/* Main content area */
+section{
+
+    width: 560px;
+    float: right;
+    padding-top: 4em;
+    padding-bottom: 50px;
+}
+section > div {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #393939;
+}
+
+/* Consolidated profile-name styling */
+.profile-name {
+  font-size: 22px;
+  color: #267CB9;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.profile-name p {
+    font-size: 13px;
+    color: #5b5b5b;
+    font-weight: 600;
+    margin: 0;
+    padding: 4px;
+}
+
+strong {
+  font-weight: 400;
+  color: #222;
+}
+
+p {
+  color: #595959;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0 0 20px;
+  padding: 0 20px;
+}
+
+a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin: 20px 0;
+}
+
+.profile-socials {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 12px;
+}
+
+.profile-socials a {
+  height: 27px;
+  width: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.profile-socials svg {
+  height: 23px;
+  width: 23px;
+  transition: all 0.2s ease;
+}
+
+.profile-socials a:hover svg {
+  height: 27px;
+  width: 27px;
+}
+
+.profile-image {
+ border-radius: 100%
+}
+
+.profile-image img {
+  height: 210px;
+  border-radius: 35%;
+  box-shadow:0px 0px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+@media print, screen and (max-width: 960px) {
+    section {
+        border: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 20px 0;
+        margin: 0 0 20px;
+    }
+    header, section, footer {
+        float: none;
+        position: static;
+        width: auto;
+    }
+}
